@@ -69,3 +69,12 @@ This project is licensed under the MIT License. See [LICENSE](LICENSE) for detai
 
 ```
 ```
+## Acknowledgements
+
+This code would not have been possible without the invaluable support, guidance, and encouragement of my senior team members.
+
+I would like to sincerely thank **Laksh Sharma**, **Hardik Rajput** for their constant mentorship throughout the development process. Their experience, feedback, and collaborative spirit helped me better understand upgradable contract patterns, security best practices, and smart contract architecture.
+
+They guided me in refining key concepts, improving the contract's structure, and ensuring that the implementation adhered to both practical use cases and best coding standards. Their involvement greatly contributed to making this contract more robust, modular, and production-ready.
+
+
