@@ -1,12 +1,6 @@
 # Upgradeable-Security-Contract
 A reusable, upgradable base contract built on OpenZeppelin’s upgradeable libraries. It provides out-of-the-box role-based access control, pausing, reentrancy guards, whitelist/blacklist management, emergency withdrawal modes, and UUPS upgradeability hooks—so you can inherit and focus only on your custom business logic.
 
-# upgradeable-security-contract
-
-A reusable, upgradable base contract built on OpenZeppelin’s upgradeable libraries. It provides out-of-the-box role-based access control, pausing, reentrancy guards, whitelist/blacklist management, emergency withdrawal modes, and UUPS upgradeability hooks—so you can inherit and focus only on your custom business logic.
-
----
-
 ## Features
 
 - **Role-Based Access Control**: Leverages OpenZeppelin’s `AccessControlUpgradeable` to manage `ADMIN_ROLE` and default admin.
@@ -20,20 +14,13 @@ A reusable, upgradable base contract built on OpenZeppelin’s upgradeable libra
 
 ---
 
-## Installation
+## Technologies Used
 
-1. Clone the repository:
-
-   bash
-   git clone https://github.com/<your-username>/upgradeable-security-contract.git
-   cd upgradeable-security-contract
-
-
-2. Install dependencies:
-
-   bash
-   npm install @openzeppelin/contracts-upgradeable
-
+- **Solidity** ^0.8.0
+- **OpenZeppelin Contracts Upgradeable**
+- **UUPS (Universal Upgradeable Proxy Standard)**
+- **Hardhat / Foundry (recommended for testing and deployment)**
+- **npm / Node.js** for dependency management
 
 ---
 
