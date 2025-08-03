@@ -24,16 +24,16 @@ A reusable, upgradable base contract built on OpenZeppelin’s upgradeable libra
 
 1. Clone the repository:
 
-   ```bash
+   bash
    git clone https://github.com/<your-username>/upgradeable-security-contract.git
    cd upgradeable-security-contract
-````
+
 
 2. Install dependencies:
 
-   ```bash
+   bash
    npm install @openzeppelin/contracts-upgradeable
-   ```
+
 
 ---
 
@@ -41,7 +41,7 @@ A reusable, upgradable base contract built on OpenZeppelin’s upgradeable libra
 
 Import and inherit the base contract in your own contract:
 
-```solidity
+solidity
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
@@ -57,7 +57,7 @@ contract MyVault is SecureUpgradeable {
         // custom validation or events
     }
 }
-```
+
 
 Ensure you call the initializer in your deployment script or constructor-equivalent for proxies.
 
@@ -66,8 +66,8 @@ Ensure you call the initializer in your deployment script or constructor-equival
 ## Configuration
 
 * **ADMIN\_ROLE**: Addresses with this role can pause, blacklist, set limits, and authorize upgrades.
-* **maxWithdrawalLimit**: Adjust via `setMaxWithdrawalLimit(uint256 newLimit)`.
-* **emergencyMode**: Toggle via `setEmergencyMode(bool status)`.
+* **maxWithdrawalLimit**: Adjust via setMaxWithdrawalLimit(uint256 newLimit).
+* **emergencyMode**: Toggle via setEmergencyMode(bool status).
 
 ---
 
