@@ -55,6 +55,11 @@ Ensure you call the initializer in your deployment script or constructor-equival
 * **ADMIN\_ROLE**: Addresses with this role can pause, blacklist, set limits, and authorize upgrades.
 * **maxWithdrawalLimit**: Adjust via setMaxWithdrawalLimit(uint256 newLimit).
 * **emergencyMode**: Toggle via setEmergencyMode(bool status).
+* **Whitelist**: Manage via addToWhitelist(address) and removeFromWhitelist(address).
+* **Blacklist**: Manage via addToBlacklist(address) and removeFromBlacklist(address).
+* **Pause / Unpause**: Use pause() and unpause() to control contract state.
+
+
 
 ---
 
